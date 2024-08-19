@@ -1,0 +1,5 @@
+C:/GitKraken/MVLAB-Temp/.utmp/RelWithDebInfo/1r6g2t1i/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/GitKraken/MVLAB-Temp/.utmp/RelWithDebInfo/1r6g2t1i/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/GitKraken/MVLAB-Temp/.utmp/RelWithDebInfo/1r6g2t1i/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/GitKraken/MVLAB-Temp/.utmp/RelWithDebInfo/1r6g2t1i/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/GitKraken/MVLAB-Temp/.utmp/RelWithDebInfo/1r6g2t1i/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
