@@ -1,0 +1,1039 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.16f1 (ae37dbaefed8) revision 11417563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 65456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/GitKraken/MVL-TEMP2
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+59117
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/GitKraken/MVL-TEMP2
+C:/GitKraken/MVL-TEMP2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20660]  Target information:
+
+Player connection [20660]  * "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 3780209591 [EditorId] 3780209591 [Version] 1048832 [Id] WindowsEditor(7,RM6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20660] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20660] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.16f1 (ae37dbaefed8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitKraken/MVL-TEMP2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005895 seconds.
+- Loaded All Assemblies, in  0.928 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1615ms
+	BeginReloadAssembly (338ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (378ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (372ms)
+				TypeCache.ScanAssembly (336ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (48ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.113 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.734 seconds
+Domain Reload Profiling: 3838ms
+	BeginReloadAssembly (772ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1168ms)
+		LoadAssemblies (742ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (602ms)
+			TypeCache.Refresh (471ms)
+				TypeCache.ScanAssembly (436ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (865ms)
+			ProcessInitializeOnLoadMethodAttributes (151ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5910 unused Assets / (4.7 MB). Loaded Objects now: 6664.
+Memory consumption went from 185.4 MB to 180.7 MB.
+Total: 21.826300 ms (FindLiveObjects: 2.470500 ms CreateObjectMapping: 2.709300 ms MarkObjects: 9.959200 ms  DeleteObjects: 6.685000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 426117.554102 seconds.
+  path: Assets/immigration/fbx/lines.fbx
+  artifactKey: Guid(14872e1f910049349bff86717e28e0f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/lines.fbx using Guid(14872e1f910049349bff86717e28e0f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '545728ca6d28698a82ec937ecea22f13') in 0.6619368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/immigration/fbx/glassgate.fbx
+  artifactKey: Guid(3272fbb34036fec41a4d0960c920a4cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/glassgate.fbx using Guid(3272fbb34036fec41a4d0960c920a4cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98d740c5974f626f11dd2fcee82717f3') in 0.049135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.746983 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial/TreeMaterial.mat
+  artifactKey: Guid(700550ff96aeb4b95b27ff24e7a9e5a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial/TreeMaterial.mat using Guid(700550ff96aeb4b95b27ff24e7a9e5a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7d5d38f180f045361fa79278dc0e2f2') in 0.0277652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.954884 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/editableMAtrial/treeMaterial.mat
+  artifactKey: Guid(84c86fe681f2395bf9edff18bcbab18a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/editableMAtrial/treeMaterial.mat using Guid(84c86fe681f2395bf9edff18bcbab18a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'da51e8c48230f94d40e4632cbc5fe7a7') in 0.0132044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/flight.unity
+  artifactKey: Guid(4409a5820fea6214b9f919efac241d6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/flight.unity using Guid(4409a5820fea6214b9f919efac241d6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2241cf61c8a2fdd2d7a74617f643b3bd') in 0.1752019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.488150 seconds.
+  path: Assets/Scenes/flight.unity
+  artifactKey: Guid(4409a5820fea6214b9f919efac241d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight.unity using Guid(4409a5820fea6214b9f919efac241d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df57a9eadf28bd02db697eff514367e7') in 0.0007246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363728 seconds.
+  path: Assets/Scenes/immigration.unity
+  artifactKey: Guid(f8ef452efcae8e6428159aeb8a68d09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/immigration.unity using Guid(f8ef452efcae8e6428159aeb8a68d09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6dbb57b6b71f820c1decc639f17866b') in 0.0010317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.835398 seconds.
+  path: Assets/Scenes/flight 1.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight 1.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9aff86738672ada344d650ff8f2fe3da') in 0.0006258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402786 seconds.
+  path: Assets/Scenes/flight 1.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/flight 1.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd07b988015019be0a7eefe013ca17144') in 0.1668231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.131437 seconds.
+  path: Assets/Scenes/flight-Refactor.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight-Refactor.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ac20abe28c15a0b56d639033af1d9b5') in 0.0006449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902382 seconds.
+  path: Assets/Scenes/flight-Refactor.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/flight-Refactor.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '704f344e710796afba666e10bdb78211') in 0.1652533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.750 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 307ms
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.222 seconds
+Domain Reload Profiling: 1968ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (46ms)
+			BuildScriptInfoCaches (162ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1222ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (715ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7483 unused Assets / (4.3 MB). Loaded Objects now: 8240.
+Memory consumption went from 185.7 MB to 181.4 MB.
+Total: 20.535700 ms (FindLiveObjects: 1.380200 ms CreateObjectMapping: 1.140200 ms MarkObjects: 13.652000 ms  DeleteObjects: 4.361800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.806 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 320ms
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.279 seconds
+Domain Reload Profiling: 2082ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (509ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (65ms)
+				TypeCache.ScanAssembly (55ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (988ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (759ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7642 unused Assets / (4.8 MB). Loaded Objects now: 8385.
+Memory consumption went from 189.9 MB to 185.1 MB.
+Total: 17.917100 ms (FindLiveObjects: 1.690600 ms CreateObjectMapping: 1.036800 ms MarkObjects: 10.617900 ms  DeleteObjects: 4.567200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (5.6 MB). Loaded Objects now: 8385.
+Memory consumption went from 185.1 MB to 179.5 MB.
+Total: 11.282000 ms (FindLiveObjects: 0.692800 ms CreateObjectMapping: 0.180500 ms MarkObjects: 8.896700 ms  DeleteObjects: 1.510500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 194.233478 seconds.
+  path: Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings
+  artifactKey: Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings using Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Opening scene 'Assets/Scenes/flight-Refactor/SubScene0.unity additively'
+Loaded scene 'Assets/Scenes/flight-Refactor/SubScene0.unity'
+	Deserialize:            0.460 ms
+	Integration:            0.437 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   0.905 ms
+ -> (artifact id: 'cce7d9c1ff9e36824ec0e78bf81669f8') in 0.4805726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (2.1 MB). Loaded Objects now: 8386.
+Memory consumption went from 203.5 MB to 201.4 MB.
+Total: 15.941500 ms (FindLiveObjects: 0.878100 ms CreateObjectMapping: 0.338300 ms MarkObjects: 13.774400 ms  DeleteObjects: 0.948800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.849987 seconds.
+  path: Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings
+  artifactKey: Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings using Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Opening scene 'Assets/Scenes/flight-Refactor/SubScene0.unity additively'
+Loaded scene 'Assets/Scenes/flight-Refactor/SubScene0.unity'
+	Deserialize:            148.405 ms
+	Integration:            120.456 ms
+	Integration of assets:  0.036 ms
+	Thread Wait Time:       -0.023 ms
+	Total Operation Time:   268.875 ms
+Renderer on GameObject "Cylinder095 (1)" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+Renderer on GameObject "Cylinder095 (2)" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+ -> (artifact id: 'f82373aefa53dab5affd3202060ff5d4') in 1.0190394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1362
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.850489 seconds.
+  path: Assets/Flight/material/chair/M_armchair.mat
+  artifactKey: Guid(cd429461f4b9895439bf5d9b1a58ea99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_armchair.mat using Guid(cd429461f4b9895439bf5d9b1a58ea99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23facfc0f51b866de9bb4489f3e0aa6e') in 0.3907571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flight/material/chair/M_chairfabric2.mat
+  artifactKey: Guid(5311aacae5471be46b9a08680a94fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_chairfabric2.mat using Guid(5311aacae5471be46b9a08680a94fa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f3d23ce09f4a804605ac1c672ae49e3d') in 0.0163234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Flight/material/chair/M_curtain.mat
+  artifactKey: Guid(a66ef9373a3ed5542ad95a416efd4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_curtain.mat using Guid(a66ef9373a3ed5542ad95a416efd4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9a12e965bd5321e68b021e149353d09') in 0.0177358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flight/material/chair/M_remote 4.mat
+  artifactKey: Guid(4a662bbab3b2d5e46adb92877fd3d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote 4.mat using Guid(4a662bbab3b2d5e46adb92877fd3d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6323343e0758b2dc14a0501478def008') in 0.0169732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/chair/M_greenlight.mat
+  artifactKey: Guid(452f63440c127e149be97f4cd28df231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_greenlight.mat using Guid(452f63440c127e149be97f4cd28df231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '366a7c6fab79681fac999c26ecea1274') in 0.0159125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flight/material/chair/M_smallmetal.mat
+  artifactKey: Guid(4a1d05818fce4ad45b00b0f6056899d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_smallmetal.mat using Guid(4a1d05818fce4ad45b00b0f6056899d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f619778d9a6043262c0843ded42a9d0') in 0.0165011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Flight/material/chair/M_remote 1.mat
+  artifactKey: Guid(76f9adcf3ab8c184c9c94b84e5accff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote 1.mat using Guid(76f9adcf3ab8c184c9c94b84e5accff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0395955d5681f37f95c25c5fde3117df') in 0.0166532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/chair/M_remote 6.mat
+  artifactKey: Guid(b9415aa4d1d310a408af40d7aeb2b073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote 6.mat using Guid(b9415aa4d1d310a408af40d7aeb2b073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fca59f50bd937a674319185ee2050740') in 0.0157586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Flight/material/chair/M_remote.mat
+  artifactKey: Guid(bdfb7246bb2283342a3c84e77d9cb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote.mat using Guid(bdfb7246bb2283342a3c84e77d9cb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13b95abaac4326fbe93d7c4380e723ee') in 0.0138216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Flight/material/chair/M_chairplastic1.mat
+  artifactKey: Guid(19bc83bf924183c4fb92197cae4c3d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_chairplastic1.mat using Guid(19bc83bf924183c4fb92197cae4c3d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1261be561dacc5b32c1d4f694fe04927') in 0.0180733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Flight/material/chair/M_smallmetal2.mat
+  artifactKey: Guid(1c0977c76a1bda443b26718cf51c55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_smallmetal2.mat using Guid(1c0977c76a1bda443b26718cf51c55af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4f114f07e4e914ed10d35a33acda372') in 0.0151035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flight/material/chair/M_chairfabric3.mat
+  artifactKey: Guid(aac5719b5e0abf14ba7b7a6bed66d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_chairfabric3.mat using Guid(aac5719b5e0abf14ba7b7a6bed66d744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72e0eb7e500efda2ce6c23ddb932a819') in 0.0164428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Flight/material/chair/M_splice3.mat
+  artifactKey: Guid(ee0411c356f09c34295e23da707539ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_splice3.mat using Guid(ee0411c356f09c34295e23da707539ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e0efb994906b73d5b9db742c093f093') in 0.0147255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Flight/material/chair/M_monitorscreen.mat
+  artifactKey: Guid(bc6338624a791e744acb173a2d92baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_monitorscreen.mat using Guid(bc6338624a791e744acb173a2d92baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96d3e207418b51d3253924b513283f44') in 0.0165274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Flight/material/chair/M_pillow.mat
+  artifactKey: Guid(4c648924925140d44a7523e0ffd75c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_pillow.mat using Guid(4c648924925140d44a7523e0ffd75c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b0e3738b90c455cc2c0e6b9febe261b') in 0.0141006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Flight/material/chair/M_sidechairfabric.mat
+  artifactKey: Guid(f713a0b9495e7e94d88d936132001c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_sidechairfabric.mat using Guid(f713a0b9495e7e94d88d936132001c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa119f7214f40786687da9b9ff24910d') in 0.0153651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Flight/material/chair/M_charge.mat
+  artifactKey: Guid(eed4f4c3fe92db84fbddddbc9e388b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_charge.mat using Guid(eed4f4c3fe92db84fbddddbc9e388b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a24474d1062ef1b5bf3c17549fd71248') in 0.0144121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Flight/material/chair/M_splice2.mat
+  artifactKey: Guid(fe60a17c1624ead45926a5f78f47e3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_splice2.mat using Guid(fe60a17c1624ead45926a5f78f47e3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a78747ec15c0ad5ff28a47db38fd48c5') in 0.0182526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.755670 seconds.
+  path: Assets/Flight/material/chair/M_armchair.mat
+  artifactKey: Guid(cd429461f4b9895439bf5d9b1a58ea99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_armchair.mat using Guid(cd429461f4b9895439bf5d9b1a58ea99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a79770b01e6b1ba9380937c0a206d3f') in 0.0147875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Flight/material/chair/M_curtain.mat
+  artifactKey: Guid(a66ef9373a3ed5542ad95a416efd4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_curtain.mat using Guid(a66ef9373a3ed5542ad95a416efd4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0589429beb5a1b759fd9fe5be321b5c') in 0.0885107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Flight/material/chair/M_remote 4.mat
+  artifactKey: Guid(4a662bbab3b2d5e46adb92877fd3d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote 4.mat using Guid(4a662bbab3b2d5e46adb92877fd3d0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e02758017ef8e1bb6e62407c321822a') in 0.031945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Flight/material/chair/M_chairplastic2.mat
+  artifactKey: Guid(c2958bb5ef1b1e2489ad7db2f301f6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_chairplastic2.mat using Guid(c2958bb5ef1b1e2489ad7db2f301f6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '129849817fb14bcdee7f2ff1c394401d') in 0.0212828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Flight/material/chair/M_remote 2.mat
+  artifactKey: Guid(7a8428ce9f9e96a42911533cd356e8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote 2.mat using Guid(7a8428ce9f9e96a42911533cd356e8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a94a1f58536762c021db36b9c354c048') in 0.0178242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Flight/material/chair/M_liquidcrystal.mat
+  artifactKey: Guid(d400ff88dfe451343a9e75587808ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_liquidcrystal.mat using Guid(d400ff88dfe451343a9e75587808ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd9baab10ac4af5327afdd9455ef3364') in 0.0131195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Flight/material/chair/M_chairmetal2.mat
+  artifactKey: Guid(2f42dc7fc31d73e4daf8c7eba33913aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_chairmetal2.mat using Guid(2f42dc7fc31d73e4daf8c7eba33913aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2acd72a2d2b73a9bb85e9518174c2f10') in 0.0127751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Flight/material/chair/M_remote.mat
+  artifactKey: Guid(bdfb7246bb2283342a3c84e77d9cb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_remote.mat using Guid(bdfb7246bb2283342a3c84e77d9cb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd736f3a1dbec5013efd62266da75c209') in 0.0130092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Flight/material/chair/M_chairmetal.mat
+  artifactKey: Guid(a4219212064fc1347b1e115d0caa26f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_chairmetal.mat using Guid(a4219212064fc1347b1e115d0caa26f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd7518a62730e5e1da9dec8a71ff4b35') in 0.0152873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/chair/M_splice3.mat
+  artifactKey: Guid(ee0411c356f09c34295e23da707539ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_splice3.mat using Guid(ee0411c356f09c34295e23da707539ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b96a51482ffb03d6044f04af39f67b92') in 0.0167917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Flight/material/chair/M_splice.mat
+  artifactKey: Guid(7d9f657e4a585a643aa86a4b7ff5db1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flight/material/chair/M_splice.mat using Guid(7d9f657e4a585a643aa86a4b7ff5db1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1412afa2ced1f00959715a804928780b') in 0.0131668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.050045 seconds.
+  path: Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings
+  artifactKey: Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings using Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Opening scene 'Assets/Scenes/flight-Refactor/SubScene0.unity additively'
+Loaded scene 'Assets/Scenes/flight-Refactor/SubScene0.unity'
+	Deserialize:            148.543 ms
+	Integration:            117.382 ms
+	Integration of assets:  0.040 ms
+	Thread Wait Time:       -0.025 ms
+	Total Operation Time:   265.941 ms
+Renderer on GameObject "Cylinder095 (1)" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+Renderer on GameObject "Cylinder095 (2)" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+ -> (artifact id: '814b1950c23997e45dfbffc239ebf05f') in 0.7500293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1362
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.841978 seconds.
+  path: Assets/Scenes/flight-Refactor.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight-Refactor.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e40ac8c71d71c139236b2b124f2fc65c') in 0.001595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Leak Detected : Persistent allocates 3 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
+- Loaded All Assemblies, in  0.765 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 302ms
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.241 seconds
+Domain Reload Profiling: 2004ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (183ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1241ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (959ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (729ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7661 unused Assets / (6.0 MB). Loaded Objects now: 8428.
+Memory consumption went from 214.6 MB to 208.6 MB.
+Total: 18.780300 ms (FindLiveObjects: 1.434500 ms CreateObjectMapping: 0.783500 ms MarkObjects: 10.838400 ms  DeleteObjects: 5.722200 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (4.4 MB). Loaded Objects now: 8428.
+Memory consumption went from 208.6 MB to 204.2 MB.
+Total: 13.171700 ms (FindLiveObjects: 0.720000 ms CreateObjectMapping: 0.267600 ms MarkObjects: 10.477000 ms  DeleteObjects: 1.705600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 92.578384 seconds.
+  path: Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings
+  artifactKey: Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/56a9267b12f96c69d4df15bf955b31f9.sceneWithBuildSettings using Guid(56a9267b12f96c69d4df15bf955b31f9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Opening scene 'Assets/Scenes/flight-Refactor/SubScene0.unity additively'
+Loaded scene 'Assets/Scenes/flight-Refactor/SubScene0.unity'
+	Deserialize:            164.963 ms
+	Integration:            209.629 ms
+	Integration of assets:  0.029 ms
+	Thread Wait Time:       -0.014 ms
+	Total Operation Time:   374.607 ms
+Renderer on GameObject "Cylinder095 (1)" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+Renderer on GameObject "Cylinder095 (2)" was not converted. The assigned mesh is null or no materials are assigned.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs:22)
+Unity.Rendering.MeshRendererBakingUtility:ValidateMeshAndMaterials (UnityEngine.Renderer,UnityEngine.Mesh,UnityEngine.Material[]) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:254)
+Unity.Rendering.MeshRendererBakingUtility:Convert<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Rendering.MeshRendererBakingUtility/ConversionMode,UnityEngine.Transform,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:119)
+Unity.Rendering.MeshRendererBakingUtility:ConvertOnPrimaryEntityForSingleMaterial<UnityEngine.MeshRenderer> (Unity.Entities.Baker`1<UnityEngine.MeshRenderer>,UnityEngine.Renderer,UnityEngine.Mesh,Unity.Collections.NativeArray`1<Unity.Entities.Entity>&) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBakingUtility.cs:98)
+Unity.Rendering.MeshRendererBaker:Bake (UnityEngine.MeshRenderer) (at ./Library/PackageCache/com.unity.entities.graphics/Unity.Entities.Graphics/MeshRendererBaking.cs:44)
+Unity.Entities.Baker`1<UnityEngine.MeshRenderer>:InvokeBake (Unity.Entities.IBaker/BakerExecutionState modreq(System.Runtime.InteropServices.InAttribute)&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/Baker.cs:2253)
+Unity.Entities.BakedEntityData:ApplyBakeInstructions (Unity.Entities.Baking.BakeDependencies&,Unity.Entities.Baking.IncrementalBakingContext/IncrementalBakeInstructions,Unity.Entities.BlobAssetStore,Unity.Entities.BakingSettings,Unity.Entities.Baking.GameObjectComponents&) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakedEntityData.cs:834)
+Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingSystem.cs:155)
+Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
+Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
+Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:123)
+Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities/Unity.Scenes.Editor/SubSceneImporter.cs:202)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.entities/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
+
+ -> (artifact id: '3453e839e39c93ce4cfbea9a880bdded') in 1.6323534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2985
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.100892 seconds.
+  path: Assets/Scenes/flight-Refactor.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight-Refactor.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '678c234c96873cf2268229afa4c8148e') in 0.0021552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.386777 seconds.
+  path: Assets/Scenes/flight-Refactor.unity
+  artifactKey: Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight-Refactor.unity using Guid(168aae12eb7e10e42a365c831b686074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a02cf45980dfcdfad0cc99101d82cc3') in 0.0008278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336887 seconds.
+  path: Assets/Scenes/flight.unity
+  artifactKey: Guid(4409a5820fea6214b9f919efac241d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/flight.unity using Guid(4409a5820fea6214b9f919efac241d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '412a40c874a0a8751350d1c90a433fc8') in 0.0008053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

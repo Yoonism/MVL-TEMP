@@ -1,0 +1,939 @@
+Using pre-set license
+Built from 'trunk' branch; Version is '6000.0.16f1 (ae37dbaefed8) revision 11417563'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 65456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/GitKraken/MVL-TEMP2
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+59117
+-job-worker-count
+11
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/GitKraken/MVL-TEMP2
+C:/GitKraken/MVL-TEMP2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31020]  Target information:
+
+Player connection [31020]  * "[IP] 192.168.0.2 [Port] 0 [Flags] 2 [Guid] 1913220778 [EditorId] 1913220778 [Version] 1048832 [Id] WindowsEditor(7,RM6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31020] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31020] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.16f1 (ae37dbaefed8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitKraken/MVL-TEMP2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003447 seconds.
+- Loaded All Assemblies, in  0.421 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.425 seconds
+Domain Reload Profiling: 843ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.151 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs:427)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 427)
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 2039ms
+	BeginReloadAssembly (455ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (400ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (194ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5910 unused Assets / (4.5 MB). Loaded Objects now: 6664.
+Memory consumption went from 185.5 MB to 181.0 MB.
+Total: 13.494500 ms (FindLiveObjects: 1.140100 ms CreateObjectMapping: 0.486700 ms MarkObjects: 7.843600 ms  DeleteObjects: 4.022500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 426108.674996 seconds.
+  path: Assets/Scenes/pickup area.unity
+  artifactKey: Guid(97fb1721a8842b448ae4277bf49ab947) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/pickup area.unity using Guid(97fb1721a8842b448ae4277bf49ab947) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Opening scene 'Assets/Scenes/pickup area.unity additively'
+Loaded scene 'Assets/Scenes/pickup area.unity'
+	Deserialize:            1.455 ms
+	Integration:            4.634 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   6.105 ms
+ -> (artifact id: '8616803b1b12b0883c147e5d1d81ea7a') in 0.2355586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/immigration/fbx/immigrationtext.fbx
+  artifactKey: Guid(d3044a677cb7a2b4cbdbb5552115bf58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/immigrationtext.fbx using Guid(d3044a677cb7a2b4cbdbb5552115bf58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7cf400541e3c9d80b9c7a77ef6467b3b') in 0.1836897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(a6560a915ef98420e9faacc1c7438823) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c4433192c570fbd9be56641d4774a3f') in 0.0237334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/immigration/material/M_passportsign 1.mat
+  artifactKey: Guid(83e021553d18bd249b55ac47caa607e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/M_passportsign 1.mat using Guid(83e021553d18bd249b55ac47caa607e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4a5d8ec42b5396418180d689e380b8c') in 0.064348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38e3d22b7efd3bb917f46bf0b13a3271') in 0.0948881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/immigration/ReflectionProbe-0.exr
+  artifactKey: Guid(70af5e9f07c78014b9a21c1c0b30d5e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/immigration/ReflectionProbe-0.exr using Guid(70af5e9f07c78014b9a21c1c0b30d5e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79acdb46a9c28a2dde537fb17bdd38d1') in 0.0473345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Flight/FBX/curtain.fbx
+  artifactKey: Guid(d087186a04e336e4696ddc5eeac85ec7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/FBX/curtain.fbx using Guid(d087186a04e336e4696ddc5eeac85ec7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd3f7a0e0235f71275a6454525071b2a') in 0.0393674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/immigration/material/M_desk1.mat
+  artifactKey: Guid(9cb4835fce50eb640aa11a18862f4956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/M_desk1.mat using Guid(9cb4835fce50eb640aa11a18862f4956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '501b942a749830e0658bff9ab6a79691') in 0.0339421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45106032549ad46ade8e07c793e8ebf9') in 0.0292686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab
+  artifactKey: Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab using Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9f28455b244a6c305d27049fecafa41') in 0.0337854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Flight/material/ceiling/M_smalllight.mat
+  artifactKey: Guid(474dd8f2d22bbd948bb69b72f726f99b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/ceiling/M_smalllight.mat using Guid(474dd8f2d22bbd948bb69b72f726f99b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97ccbeb62fcd4202d232c2c7ec92af1b') in 0.0295315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6275aca4be7aed5d92112da154ad4d14') in 0.100795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b548e3daadfdeeb96ead89be5f7c12f') in 0.0366648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/immigration/material/1K-wallpaper_38_normal.png
+  artifactKey: Guid(4524781acd99c96428427f40b82e9c58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/1K-wallpaper_38_normal.png using Guid(4524781acd99c96428427f40b82e9c58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1add7974fa3df53504eaf4fffa528890') in 0.0699426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flight/material/chair/M_chairmetal.mat
+  artifactKey: Guid(a4219212064fc1347b1e115d0caa26f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_chairmetal.mat using Guid(a4219212064fc1347b1e115d0caa26f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b7e3afb08fa5281fc1ef96abe1ad3be1') in 0.0262017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/immigration/material/linehere.png
+  artifactKey: Guid(b5006705667150f46907f04c8e2f72d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/linehere.png using Guid(b5006705667150f46907f04c8e2f72d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4a653434da44de3e4c4136a13611a4bd') in 0.0297357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/immigration/fbx/passportsign.fbx
+  artifactKey: Guid(0e995582bcd4eda4b824954f6a511789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/passportsign.fbx using Guid(0e995582bcd4eda4b824954f6a511789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a401a80f851a53aabe31e7061a254e04') in 0.0320227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/immigration/material/1K_serpegiante_(italy)___polished___marble_diffuse.png
+  artifactKey: Guid(04b6a04995085e9499c4ec707713baa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/1K_serpegiante_(italy)___polished___marble_diffuse.png using Guid(04b6a04995085e9499c4ec707713baa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf342389bb8cfb83ca75993beef12cb3') in 0.0285518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/fallenBranchesTree Variant.prefab
+  artifactKey: Guid(19362d91ee92c6701b067da38b61ecca) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/fallenBranchesTree Variant.prefab using Guid(19362d91ee92c6701b067da38b61ecca) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2555d0a06defa4a47a41152510fd3e38') in 0.0211126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dc1fb983da5fd64ab7f20be5a1a3166') in 0.0430074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Flight/material/chair/M_smallmetal.mat
+  artifactKey: Guid(4a1d05818fce4ad45b00b0f6056899d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_smallmetal.mat using Guid(4a1d05818fce4ad45b00b0f6056899d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '86d422edc2a022b67fe8f827b0613a6d') in 0.0242884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Flight/material/chair/M_liquidcrystal.mat
+  artifactKey: Guid(d400ff88dfe451343a9e75587808ea84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_liquidcrystal.mat using Guid(d400ff88dfe451343a9e75587808ea84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '793ab552cd8a236499d70f6e084c8051') in 0.0246449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/chair/M_sidechairfabric.mat
+  artifactKey: Guid(f713a0b9495e7e94d88d936132001c70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_sidechairfabric.mat using Guid(f713a0b9495e7e94d88d936132001c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b99b611ddf65099e6856537f5157a21c') in 0.0236053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/immigration/fbx/arrivalcreen.fbx
+  artifactKey: Guid(801c1059980bbb1408e6b065037ca216) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/arrivalcreen.fbx using Guid(801c1059980bbb1408e6b065037ca216) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c5981f459188a279e47a7538e5e00d8') in 0.0681591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/immigration/fbx/Office Chair.fbx
+  artifactKey: Guid(e83e1c1b75b8e324cac333445276891f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/Office Chair.fbx using Guid(e83e1c1b75b8e324cac333445276891f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81450301fe7c1f200e65eab36164ebab') in 0.0553638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/immigration/fbx/microphone.obj
+  artifactKey: Guid(734ec7981547d6f45a6081fd69c61bb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/microphone.obj using Guid(734ec7981547d6f45a6081fd69c61bb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd9b3e9ff4011368e5284aaef3a70cfb4') in 0.062164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/bigLeavesTree Variant.prefab
+  artifactKey: Guid(af28e02efb1b49bc09580ce7162442e3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/bigLeavesTree Variant.prefab using Guid(af28e02efb1b49bc09580ce7162442e3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8510faf28a61f411d4dadd80bed78455') in 0.0294696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Flight/material/chair/M_chairfabric2.mat
+  artifactKey: Guid(5311aacae5471be46b9a08680a94fa72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_chairfabric2.mat using Guid(5311aacae5471be46b9a08680a94fa72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dd1afaf53d3fb1e2a3ddf82f408dcba') in 0.0306778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/immigration/material/chair/BaseColor.png
+  artifactKey: Guid(3b4f98406b3092143abff100bab117ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/chair/BaseColor.png using Guid(3b4f98406b3092143abff100bab117ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb6c4e9d60e8cc0dfa36f74d7ed3c12f') in 0.0294222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryFallenBranchesTree Variant.prefab
+  artifactKey: Guid(d287642e8b29ecfa8b5bf74fb9bffb3f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryFallenBranchesTree Variant.prefab using Guid(d287642e8b29ecfa8b5bf74fb9bffb3f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a30083770dcb9ea2277bae8dd1ac64c4') in 0.0157121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/chair/M_chairplastic2.mat
+  artifactKey: Guid(c2958bb5ef1b1e2489ad7db2f301f6f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_chairplastic2.mat using Guid(c2958bb5ef1b1e2489ad7db2f301f6f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5bbc2bea65b14d0ecb0544ef6d4b0acf') in 0.0228152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Flight/material/side wall/M_window.mat
+  artifactKey: Guid(d8d9d02086610384a86a83f7ddbaa094) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/side wall/M_window.mat using Guid(d8d9d02086610384a86a83f7ddbaa094) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c229d3ac651e96c0c3f36c66a00a09c7') in 0.0199544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Flight/material/chair/M_armchair.mat
+  artifactKey: Guid(cd429461f4b9895439bf5d9b1a58ea99) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_armchair.mat using Guid(cd429461f4b9895439bf5d9b1a58ea99) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6550f75a38b87c9dbdf23f467dada64') in 0.0211634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/immigration/material/desk/glassgate.fbx
+  artifactKey: Guid(f9eae6497dad7e74fa2079361af7a84d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/glassgate.fbx using Guid(f9eae6497dad7e74fa2079361af7a84d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afa9ca36ab8f559cb9b506e9ac5bee81') in 0.0435819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/immigration/material/desk/M_passportreader.mat
+  artifactKey: Guid(26f8566a0a241f542acbf57e213d4e30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/M_passportreader.mat using Guid(26f8566a0a241f542acbf57e213d4e30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9522c93fbebe6b1ffb1159cd5e28714c') in 0.0231859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/immigration/fbx/passportscanner 1.fbx
+  artifactKey: Guid(b3aad330a1157fe4c94edcb3e52726ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/passportscanner 1.fbx using Guid(b3aad330a1157fe4c94edcb3e52726ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3bf93ddc6ed22fc519eeb6178058acb') in 0.0634411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/immigration/fbx/Team3_Sanchez_SecurityCamera.fbx
+  artifactKey: Guid(f80a082111fe82e4dbe334cde318af05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/Team3_Sanchez_SecurityCamera.fbx using Guid(f80a082111fe82e4dbe334cde318af05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cc8d2b332b695a217442eef935562f11') in 0.0443527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Flight/material/chair/M_chairfabric3.mat
+  artifactKey: Guid(aac5719b5e0abf14ba7b7a6bed66d744) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/M_chairfabric3.mat using Guid(aac5719b5e0abf14ba7b7a6bed66d744) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ce51174b8b0b7c5f2be2135b1633a69') in 0.0263208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/immigration/material/CCTV/M_CCTV.mat
+  artifactKey: Guid(5aaa16fa7f2990b44b0406a3d48ca98d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/CCTV/M_CCTV.mat using Guid(5aaa16fa7f2990b44b0406a3d48ca98d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3040a0b6264190e5935ca13758e05a33') in 0.0203223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/immigration/material/screen/M_redlight.mat
+  artifactKey: Guid(fb25a79ad781d164f9becf515eb526d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/screen/M_redlight.mat using Guid(fb25a79ad781d164f9becf515eb526d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f029cc905156bc4b4da5c8ac0ec916e') in 0.0223877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/immigration/material/tile/1K-wallpaper_41_basecolor.png
+  artifactKey: Guid(096ac3d6f7fe1c74890fc1c0535b6997) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/tile/1K-wallpaper_41_basecolor.png using Guid(096ac3d6f7fe1c74890fc1c0535b6997) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e34e4e36a87fa548d49f33cbc52abe84') in 0.0247406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Flight/FBX/flightchair4-609.fbx
+  artifactKey: Guid(d4b0962efd9c3854bb045aa529134431) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/FBX/flightchair4-609.fbx using Guid(d4b0962efd9c3854bb045aa529134431) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df8a5068d15d6f49f40c46b0192f2944') in 0.4226573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 654
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/immigration/material/tile/Air_conditioner_01_01.fbx
+  artifactKey: Guid(e1e1a6c513144f746b77d49942722c10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/tile/Air_conditioner_01_01.fbx using Guid(e1e1a6c513144f746b77d49942722c10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7fef731781a0c0154de45b71bbb03e1b') in 0.057135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/immigration/material/M_passportsign.mat
+  artifactKey: Guid(a7eabc65b8f10ff408cf9c2c1c920c91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/M_passportsign.mat using Guid(a7eabc65b8f10ff408cf9c2c1c920c91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7328168c73de59d7b72a61d8b5584db2') in 0.0297344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Flight/material/side wall/M_monitor2.mat
+  artifactKey: Guid(11d27500ea3a2034f9dd51a9e73059c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/side wall/M_monitor2.mat using Guid(11d27500ea3a2034f9dd51a9e73059c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '19280ec8a4f1d3f238ce9b957d1836cf') in 0.025305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/immigration/material/tree/folwerpot2_D.png
+  artifactKey: Guid(a039ecb6a5535db4d895af39c262bb52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/tree/folwerpot2_D.png using Guid(a039ecb6a5535db4d895af39c262bb52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0b38da07e905efb0849a1e759b0e2a3') in 0.0300065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Flight/material/chair/Texture/fabric_124_normal-1K.png
+  artifactKey: Guid(3e57c723b5c4b484997effa6ce908294) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/Texture/fabric_124_normal-1K.png using Guid(3e57c723b5c4b484997effa6ce908294) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '76c33ac449a91f6f6f0a77c67be5f9b6') in 0.0390121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Flight/material/ceiling/Texture/small sreen.png
+  artifactKey: Guid(fad0c4ec99c8e1a4288bd4278c18ac06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/ceiling/Texture/small sreen.png using Guid(fad0c4ec99c8e1a4288bd4278c18ac06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7e71553111376fcb700ceb6192c6bec') in 0.0351385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Flight/material/side wall/texture/pull 1.png
+  artifactKey: Guid(324c9d020711fcf4cac17ddb7b5146cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/side wall/texture/pull 1.png using Guid(324c9d020711fcf4cac17ddb7b5146cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a972cce65c64903e703612f4e161807') in 0.037373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Flight/material/chair/Texture/모니터 화면.png
+  artifactKey: Guid(308caa1f8e0e5c847adceb67f19dbb74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/Texture/모니터 화면.png using Guid(308caa1f8e0e5c847adceb67f19dbb74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb3eed8749455b2ef605ccaa4368fc7b') in 0.0394682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Flight/material/side wall/M_pull.mat
+  artifactKey: Guid(e3c2f4c880e7daa4093617a5db3b3c4f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/side wall/M_pull.mat using Guid(e3c2f4c880e7daa4093617a5db3b3c4f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '577bd7735863e38e59c78f448cedf353') in 0.0192296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/immigration/material/screen/immigration screen.png
+  artifactKey: Guid(806910ca682b0d74d937005746d816e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/screen/immigration screen.png using Guid(806910ca682b0d74d937005746d816e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b4b1648d858908f5f1205232e3def106') in 0.0248154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/immigration/material/desk/NO/New Material 1.mat
+  artifactKey: Guid(5c9a734f70812b24c94a6aa57c10ad11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/NO/New Material 1.mat using Guid(5c9a734f70812b24c94a6aa57c10ad11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b9e8a084e75515fdd9e116e50802934e') in 0.0222341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/immigration/material/desk/chair/Office_Chair_Chair_AlbedoTransparency.png
+  artifactKey: Guid(7c12e64cd3f3306459ad4f3edb8a81bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/chair/Office_Chair_Chair_AlbedoTransparency.png using Guid(7c12e64cd3f3306459ad4f3edb8a81bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0dd4dbc7017435b3625a2fc69de9408b') in 0.0265281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/immigration/material/desk/NO/New Material 3.mat
+  artifactKey: Guid(cbb2bc69c7c649543970d85bec3cc2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/NO/New Material 3.mat using Guid(cbb2bc69c7c649543970d85bec3cc2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16e576b38941d83c4072737b207fcc6d') in 0.0178329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/immigration/material/desk/chair/Office_Chair_Chair_MetallicSmoothness.png
+  artifactKey: Guid(301557d7605b941408792f734389731b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/chair/Office_Chair_Chair_MetallicSmoothness.png using Guid(301557d7605b941408792f734389731b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4639357d26a78c22e682f96c3c811920') in 0.027097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/immigration/material/desk/chair/Office_Chair_Chair_Normal.png
+  artifactKey: Guid(d9b4dca9d3381bc459bdb07559b965be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/chair/Office_Chair_Chair_Normal.png using Guid(d9b4dca9d3381bc459bdb07559b965be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f093e2ff2422058d856326ed13adf45a') in 0.0352276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/immigration/material/tile/BathroomFloorTiles02_1K_BaseColor.png
+  artifactKey: Guid(9b490ba4c98ce6746810ba1964e1845b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/tile/BathroomFloorTiles02_1K_BaseColor.png using Guid(9b490ba4c98ce6746810ba1964e1845b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ebc170f59021a9037a1d33b60a85734a') in 0.0373068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Flight/material/chair/Texture/metal_9_ambientocclusion-1K.png
+  artifactKey: Guid(d98394e0ced445e439f1d87a9f8d0144) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/Texture/metal_9_ambientocclusion-1K.png using Guid(d98394e0ced445e439f1d87a9f8d0144) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2cd8030c620a01389c592e67fc94a78') in 0.0283157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx
+  artifactKey: Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx using Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9131043d7108c33dc897ec3e404c754a') in 0.0430651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/immigration/material/desk/NO/NO1.png
+  artifactKey: Guid(5188ede822b85da40a2be931cc609706) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/NO/NO1.png using Guid(5188ede822b85da40a2be931cc609706) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2af0df7a387d16ddd509d2e76c20b31') in 0.0321286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001034 seconds.
+  path: Assets/immigration/material/desk/NO/NO14.png
+  artifactKey: Guid(b6b625ed1aa55ca4facbace60a8cdb5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/NO/NO14.png using Guid(b6b625ed1aa55ca4facbace60a8cdb5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '85af07d1f3049b20254faaba49e0543d') in 0.0484056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/bigLeavesTree.fbx
+  artifactKey: Guid(b79ea7d30c3eb9ee7b39cd55a82c6229) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/bigLeavesTree.fbx using Guid(b79ea7d30c3eb9ee7b39cd55a82c6229) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '627fec2ce6935beaf200c7a9131be072') in 0.0515428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/fallenBranchesTree Variant.prefab
+  artifactKey: Guid(19362d91ee92c6701b067da38b61ecca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/fallenBranchesTree Variant.prefab using Guid(19362d91ee92c6701b067da38b61ecca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88056baaf1c74ad34059234953730a70') in 0.0368946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/simpleTree.fbx
+  artifactKey: Guid(b61cbb3a5418451ef879c216ad91ec47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/simpleTree.fbx using Guid(b61cbb3a5418451ef879c216ad91ec47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bc1c0bf7415417cdd3542896e383c24') in 0.06364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/tree Variant.prefab
+  artifactKey: Guid(7efdb8014b1a7d0e8a1c26bf74dd3e0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/tree Variant.prefab using Guid(7efdb8014b1a7d0e8a1c26bf74dd3e0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94917ee8642d7352ea36e860201621bd') in 0.1907491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/TreeMaterial.mat
+  artifactKey: Guid(2758adbd444112e50b61e512c46c0fd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/TreeMaterial.mat using Guid(2758adbd444112e50b61e512c46c0fd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '383254fd6138da728a36c35f8df3030c') in 0.0445964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/purpleTree Variant.prefab
+  artifactKey: Guid(b48b3f383c0a3bed59db17486d85a6e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/meshCollider/purpleTree Variant.prefab using Guid(b48b3f383c0a3bed59db17486d85a6e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea2ef07f498f798c79e38b0bfa8fbc45') in 0.0321635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/drySimpleTree Variant.prefab
+  artifactKey: Guid(0e433a40fec982603a2534990bb87688) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/drySimpleTree Variant.prefab using Guid(0e433a40fec982603a2534990bb87688) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0efd2ef0cd95b525f8c1891fc902031') in 0.0198794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/trees/tree Variant.prefab
+  artifactKey: Guid(3f7dd0e9bb47425f3b6515ab77926eb2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/trees/tree Variant.prefab using Guid(3f7dd0e9bb47425f3b6515ab77926eb2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '945358be671506b2785e664aa5698130') in 0.0300431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/immigration/material/tile/1K-tiling_35_normal.jpg
+  artifactKey: Guid(ccce766f97b28744fad7420b7f6df6de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/tile/1K-tiling_35_normal.jpg using Guid(ccce766f97b28744fad7420b7f6df6de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09960b828b066280621c4111f03e4a7c') in 0.0272962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/pickup area/LightingData.asset
+  artifactKey: Guid(79165d44bb3067243b2f854630d51fe2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/pickup area/LightingData.asset using Guid(79165d44bb3067243b2f854630d51fe2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0765a716dcd1bb12ef40bb85dd02bcee') in 0.0178353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Flight/material/Material/1K-carpet_floor_5-normal.jpg
+  artifactKey: Guid(e058d50612b1c9444a2486c49395d037) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/Material/1K-carpet_floor_5-normal.jpg using Guid(e058d50612b1c9444a2486c49395d037) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '890efaf590ffdedadb2a52a8ae8d41e5') in 0.0788988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/immigration/fbx/germx_FINAL.fbx
+  artifactKey: Guid(121f53f28e225294a8701072b54c1303) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/fbx/germx_FINAL.fbx using Guid(121f53f28e225294a8701072b54c1303) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c53b4be8749168fc429ced7da929646d') in 0.3596922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Flight/FBX/belt1.fbx
+  artifactKey: Guid(e1b9dfc9debb81242b11dfce73082421) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/FBX/belt1.fbx using Guid(e1b9dfc9debb81242b11dfce73082421) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2749dcfc3fb745b888e5bbbea7eba4cf') in 0.2099584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/side wall/texture/TOILET.png
+  artifactKey: Guid(ccd5ed1453179364d9afdaff2382c9e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/side wall/texture/TOILET.png using Guid(ccd5ed1453179364d9afdaff2382c9e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97281851e031bea5b355b41425cf4ab5') in 0.0717079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/immigration/material/desk/NO/New Material 6.mat
+  artifactKey: Guid(970a8cd2ad950b440803161057fb7194) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/NO/New Material 6.mat using Guid(970a8cd2ad950b440803161057fb7194) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b19578f1c00cb4aefe0ddb7f9b388ef5') in 0.0208465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Flight/material/chair/Texture/fabric_122_albedo-1K.png
+  artifactKey: Guid(f87ff9c6f78efdc41a70c28e0fc945ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Flight/material/chair/Texture/fabric_122_albedo-1K.png using Guid(f87ff9c6f78efdc41a70c28e0fc945ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf84d075f508cb07d15535109d653683') in 0.0322734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/immigration/material/desk/border protection.png
+  artifactKey: Guid(6f8b5a39c84077245bcae964876a1083) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/immigration/material/desk/border protection.png using Guid(6f8b5a39c84077245bcae964876a1083) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44b1cde9900bde1cc4965386284aaa61') in 0.1026006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.714392 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(324b7782d067e21edbca6af4a0e0dec3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/leavesMaterial.mat using Guid(324b7782d067e21edbca6af4a0e0dec3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0c57b1ee020542624211f88162d7f4f3') in 0.0119692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.971611 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial/leavesMaterial.mat
+  artifactKey: Guid(d661de310ea73c73983ff36ce0cdb5fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial/leavesMaterial.mat using Guid(d661de310ea73c73983ff36ce0cdb5fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddec6782f6f8f717492e9e8bbba0fb26') in 0.0128977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(66437b4c7b3af3279bbb8e06d605beed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials/leavesMaterial.mat using Guid(66437b4c7b3af3279bbb8e06d605beed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ad1c5a8519722b6ddde350e2efc127d') in 0.0127225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
